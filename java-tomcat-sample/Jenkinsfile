@@ -38,7 +38,7 @@ pipeline {
 
             steps{
 
-                build job: 'Deploy_Application_Staging_Env'
+                build job: 'Deploy to INT ENV'
 
 
 
@@ -58,7 +58,7 @@ pipeline {
 
                 }
 
-                build job: 'Deploy_Application_Prod_Env'
+                build job: 'Deploy to PROD ENV'
 
             }
 
