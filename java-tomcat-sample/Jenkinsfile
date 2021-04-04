@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         stage('Deploy in Staging Environment'){
-            build job: 'Deploy-application-staging_ENV'
+            build job: 'Deploy to INT ENV'
             }
         }
     }
